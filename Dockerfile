@@ -8,4 +8,4 @@ RUN  yum -y install wget unzip zip bzip2 bzip2-devel tar
 # Add volumes for MySQL
 VOLUME  ["/"]
 
-EXPOSE 80 3306 22 3311 3312 3313
+EXPOSE 80 3306 22
