@@ -5,7 +5,10 @@ MAINTAINER TenxCloud <dev@tenxcloud.com>
 RUN  yum -y install wget unzip zip bzip2 bzip2-devel tar
 
 # Exposed ENV
+ENV ENV ROOT_PASS **Random**
+
 # Add volumes for MySQL
 VOLUME  ["/"]
 
 EXPOSE 80 3306 22
+CMD ["/run.sh"]
