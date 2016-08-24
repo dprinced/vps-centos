@@ -8,7 +8,7 @@ RUN  yum -y install wget unzip zip bzip2 bzip2-devel tar
 ENV ROOT_PASS **Random**
 
 # Add volumes for MySQL
-VOLUME  ["/"]
+VOLUME  ["/data"]
 
 EXPOSE 80 3306 22
 CMD echo hello world
