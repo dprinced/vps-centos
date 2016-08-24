@@ -17,4 +17,4 @@ ENV ROOT_PASS **Random**
 VOLUME  ["/data"]
 
 EXPOSE 80 3306 22
-CMD echo hello world
+CMD ["/run.sh"]
