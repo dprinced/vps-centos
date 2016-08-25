@@ -1,4 +1,4 @@
-FROM centos:6.6
+FROM index.tenxcloud.com/tenxcloud/centos:6.6
 MAINTAINER TenxCloud <dev@tenxcloud.com>
 
 # Install packages
@@ -17,4 +17,3 @@ ENV ROOT_PASS **Random**
 VOLUME  ["/data"]
 
 EXPOSE 80 3306 22
-CMD ["/run.sh"]
